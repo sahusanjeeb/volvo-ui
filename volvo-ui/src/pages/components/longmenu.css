@@ -1,0 +1,4 @@
+@import "print-icon.css" print;
+.menu-item:hover {
+  color: #1976d2 !important;
+}

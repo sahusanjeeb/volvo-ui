@@ -1,0 +1,35 @@
+@import "print-features.css" print;
+.feature-card__header {
+  border-top: solid;
+  padding: 4px;
+  border-bottom: dotted;
+}
+.feature-card {
+  max-width: 19vw ;
+}
+.feature-card__body {
+  line-height: 13px;
+  white-space: pre-line;
+}
+@media only screen and (max-width: 1200px) {
+  .feature-card {
+    /* background-color: red; */
+    max-width: 70vw !important;
+  }
+}
+
+@media print {
+  .feature-card {
+    max-width: 70vw !important;
+  }
+}
+
+.active-boder {
+  border: 1.4px solid #1976d2;
+}
+
+@media only screen and (max-width: 600px) {
+  .feature-card {
+    max-width: 98% !important;
+  }
+}
